@@ -36,7 +36,7 @@
           </div>
           
           @include('admin.layouts.includes.scripts-src')
-          @yield('scripts-chart')
           @include('admin.layouts.includes.modals')
+          @yield('scripts-chart')
     </body>
 </html>
