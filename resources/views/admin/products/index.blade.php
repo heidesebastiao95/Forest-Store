@@ -59,13 +59,11 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
+            <a href="#" class="btn btn-icon bg-primary">
+                <x-bi-pencil-square class="text-light icon"/>
             </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
+            <a href="#" class="btn btn-icon bg-danger">
+              <x-bi-trash3-fill class="text-light icon"/>
             </a>
           </div>
       </div>
@@ -85,15 +83,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -111,15 +107,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -137,15 +131,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -163,15 +155,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -189,15 +179,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -215,15 +203,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -241,15 +227,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -267,15 +251,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -293,15 +275,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -319,15 +299,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -345,15 +323,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -371,15 +347,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -397,15 +371,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -423,15 +395,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -449,15 +419,13 @@
       </div>
       <div class="card-footer">
         <div class="ms-auto">
-            <a href="#" class="btn btn-facebook btn-icon" aria-label="Facebook">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-facebook -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
-            </a>
-            <a href="#" class="btn btn-youtube btn-icon" aria-label="Youtube">
-                <!-- Download SVG icon from http://tabler-icons.io/i/brand-youtube -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="4" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-          </div>
+          <a href="#" class="btn btn-icon bg-primary">
+              <x-bi-pencil-square class="text-light icon"/>
+          </a>
+          <a href="#" class="btn btn-icon bg-danger">
+            <x-bi-trash3-fill class="text-light icon"/>
+          </a>
+        </div>
       </div>
     </div>
   </div>
