@@ -125,8 +125,8 @@
         <ul class="navbar-nav pt-lg-3">
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-grid-1x2 class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Dashboard
@@ -135,8 +135,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-archive class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Products
@@ -145,8 +145,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-folder2-open class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Categories
@@ -155,8 +155,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-cart class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Orders
@@ -165,8 +165,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-people class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Custommers
@@ -175,8 +175,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-graph-up-arrow class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Statistics
@@ -185,8 +185,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-chat-left-dots class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Reviews
@@ -195,8 +195,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-cash-stack class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Transactions
@@ -205,8 +205,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-globe class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Sellers
@@ -214,9 +214,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+            <a class="nav-link status status-azure" href="./index.html" >
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-pen class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Apparence
@@ -225,44 +225,14 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/home -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="5 12 3 12 12 3 21 12 19 12" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
+              <span class="nav-link-icon d-md-none d-lg-inline-block">
+                <x-bi-gear class="text-light icon"/>
               </span>
               <span class="nav-link-title">
                 Settings
               </span>
             </a>
           </li>
-          {{-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#navbar-base" data-bs-toggle="dropdown" data-bs-auto-close="false" role="button" aria-expanded="false" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/package -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" /><line x1="12" y1="12" x2="20" y2="7.5" /><line x1="12" y1="12" x2="12" y2="21" /><line x1="12" y1="12" x2="4" y2="7.5" /><line x1="16" y1="5.25" x2="8" y2="9.75" /></svg>
-              </span>
-              <span class="nav-link-title">
-                Interface
-              </span>
-            </a>
-            <div class="dropdown-menu">
-              <div class="dropdown-menu-columns">
-                <div class="dropdown-menu-column">
-                  <a class="dropdown-item" href="./empty.html">
-                    Empty page
-                    <span class="badge badge-sm bg-green text-uppercase ms-2">New</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./form-elements.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- /i/checkbox -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 11 12 14 20 6" /><path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" /></svg>
-              </span>
-              <span class="nav-link-title">
-                Forms
-              </span>
-            </a>
-          </li> --}}
         </ul>
       </div>
     </div>
