@@ -22,7 +22,7 @@ return new class extends Migration
             $table->integer('descount')->default(0);
             $table->integer('hearts')->default(0);
             $table->text('long_desc');
-            $table->string('short_desc',20);
+            // $table->string('short_desc',20);
             $table->text('img');
             $table->timestamps();
 

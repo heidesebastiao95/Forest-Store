@@ -2,7 +2,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">New report</h5>
+          <h5 class="modal-title">New Product</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -10,10 +10,24 @@
             <div class="card-body">
               <form>
                 <div class="form-group mb-3 ">
-                  <label class="form-label required">Email address</label>
+                  <label class="form-label required">Tittle</label>
                   <div >
-                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small class="form-hint">We'll never share your email with anyone else.</small>
+                    <input type="text" class="form-control"  placeholder="Enter tittle">
+                    {{-- <small class="form-hint">please follow the pattern (2,500 | 1,000 | 500.00).</small> --}}
+                  </div>
+                </div>
+                <div class="form-group mb-3 ">
+                  <label class="form-label required">Price</label>
+                  <div >
+                    <input type="text" class="form-control"  placeholder="Enter price">
+                    <small class="form-hint">please follow the pattern (2,500 | 1,000 | 500.00).</small>
+                  </div>
+                </div>
+                <div class="form-group mb-3 ">
+                  <label class="form-label required">Description</label>
+                  <div >
+                    <input type="text" class="form-control"  placeholder="Enter tittle">
+                    {{-- <small class="form-hint">please follow the pattern (2,500 | 1,000 | 500.00).</small> --}}
                   </div>
                 </div>
                 <div class="form-group mb-3 ">
