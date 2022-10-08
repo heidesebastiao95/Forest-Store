@@ -13,6 +13,8 @@ class Product extends Model
 
     public function category() { return $this->belongsTo(\App\Models\ProductCategory::class); }
 
+    public function seller() { return $this->belongsTo(\App\Models\User::class,'seller_id');}
+
     public function orders() { return $this->hasMany(\App\Models\Order::class); }
 
     public function carts() { return $this->hasMany(\App\Models\Cart::class); }
