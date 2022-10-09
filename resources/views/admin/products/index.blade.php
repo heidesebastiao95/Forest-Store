@@ -56,7 +56,7 @@
             <a href="#" class="btn btn-icon bg-primary">
                 <x-bi-pencil-square class="text-light icon"/>
             </a>
-            <a href="#" class="btn btn-icon bg-danger">
+            <a href="#" class="btn btn-icon bg-danger" data-bs-toggle="modal" data-bs-target="#modal-danger">
               <x-bi-trash3-fill class="text-light icon"/>
             </a>
           </div>

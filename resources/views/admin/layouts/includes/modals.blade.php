@@ -1,3 +1,3 @@
 <div>
-    @include('admin.modals.products.create-product-form')
+    @include('admin.products.modals.main')
 </div>
