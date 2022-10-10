@@ -18,7 +18,7 @@
           @include('admin.layouts.includes.asside')
             {{-- Navbar --}}
           @include('admin.layouts.includes.navbar')
-            <div class="page-wrapper">
+            <div class="page-wrapper" id="table-default">
               {{-- Page Header --}}
               <div class="page-header d-print-none">
                @yield('header-section')

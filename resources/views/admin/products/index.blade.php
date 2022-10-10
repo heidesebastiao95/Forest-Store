@@ -445,6 +445,7 @@
       </a>
     </li>
   </ul>
+</div>
 @endsection
 @section('scripts-chart')
 
