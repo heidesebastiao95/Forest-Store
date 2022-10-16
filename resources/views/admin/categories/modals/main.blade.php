@@ -1,0 +1,9 @@
+<div>
+    @include('admin.categories.modals.create')
+</div>
+<div>
+    @include('admin.categories.modals.edit')
+</div>
+<div>
+    @include('admin.categories.modals.alert.main')
+</div>
