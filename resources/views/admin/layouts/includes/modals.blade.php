@@ -4,3 +4,6 @@
 <div>
     @include('admin.categories.modals.main')
 </div>
+<div>
+    @include('admin.orders.modals.main')
+</div>

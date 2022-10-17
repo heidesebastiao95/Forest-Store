@@ -5,7 +5,10 @@
     <div class="row g-2 align-items-center">
       <div class="col">
         <h2 class="page-title">
-          Categories
+            <div class="col-auto">
+                {{-- <div class="avatar bg-indigo-lt"><x-bi-trash/></div> --}}
+              </div>
+              Orders
         </h2>
         {{-- <div class="text-muted mt-1">1-12 of 241 products</div> --}}
       </div>
@@ -20,9 +23,9 @@
               </span>
             </div>
           </div>
-          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create-category-modal">
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create-order-modal">
             <x-bi-plus-lg class="text-light icon"/>
-            New Category
+            New Order
           </a>
         </div>
       </div>
