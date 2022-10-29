@@ -1,5 +1,9 @@
 @extends('admin.layouts.app')
 
+@section('asside')
+@include('admin.layouts.includes.asside')
+@endsection
+
 @section('header-section')
 <div class="container-xl">
     <div class="row g-2 align-items-center">
