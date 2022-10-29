@@ -223,7 +223,7 @@
               </span>
             </a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" href="./index.html" >
               <span class="nav-link-icon d-md-none d-lg-inline-block">
                 <x-bi-gear class="text-light icon"/>
@@ -232,6 +232,34 @@
                 Settings
               </span>
             </a>
+          </li> --}}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#navbar-help" data-bs-toggle="dropdown" data-bs-auto-close="false" role="button" aria-expanded="false">
+              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/lifebuoy -->
+                <x-bi-gear class="text-light icon"/>
+              </span>
+              <span class="nav-link-title">
+                Settings
+              </span>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./docs/index.html">
+                Account
+              </a>
+              <a class="dropdown-item" href="./changelog.html">
+                Invoices
+              </a>
+              <a class="dropdown-item" href="https://github.com/tabler/tabler" target="_blank" rel="noopener">
+              Profile
+              </a>
+              <a class="dropdown-item" href="https://github.com/tabler/tabler" target="_blank" rel="noopener">
+                Transactions
+              </a>
+              <a class="dropdown-item" href="https://github.com/tabler/tabler" target="_blank" rel="noopener">
+                Cart
+              </a>
+              
+            </div>
           </li>
         </ul>
       </div>
