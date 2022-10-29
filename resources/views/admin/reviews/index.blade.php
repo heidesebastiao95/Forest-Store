@@ -12,7 +12,7 @@
             <div class="col-auto">
                 {{-- <div class="avatar bg-indigo-lt"><x-bi-trash/></div> --}}
               </div>
-              Orders
+              Reviews
         </h2>
         {{-- <div class="text-muted mt-1">1-12 of 241 products</div> --}}
       </div>
@@ -29,7 +29,7 @@
           </div>
           <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create-order-modal">
             <x-bi-plus-lg class="text-light icon"/>
-            New Order
+            New Review
           </a>
         </div>
       </div>
@@ -49,8 +49,7 @@
             <tr>
               <th class="text-center">
                 <label class="form-check form-check-inline mb-0">
-                  <input class="form-check-input" type="checkbox" >
-                </label>
+                <input class="form-check-input" type="checkbox" >
               </th>
               <th>
                  <h5><button class="table-sort" data-sort="sort-id">ID</button></h5> 
@@ -66,10 +65,13 @@
             <tr>
               <td class="text-center">
                 <label class="form-check form-check-inline mb-0">
-                  <input class="form-check-input" type="checkbox" >
+                <input class="form-check-input" type="checkbox" >
                 </label>
               </td>
-              <td class="sort-name">Sort Name</td>
+              <td class="sort-name">
+                Sort Name
+              </label>
+            </td>
               <td class="sort-city">Cedar Point, United States</td>
               <td class="sort-type">RMC Hybrid</td>
               <td class="sort-score">100,0%</td>

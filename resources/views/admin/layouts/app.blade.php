@@ -15,7 +15,7 @@
         <script src="{{ asset('js/demo-theme.min.js') }}"></script>
         <div class="page">
             {{-- Sidebar --}}
-          @include('admin.layouts.includes.asside')
+         @yield('asside')
             {{-- Navbar --}}
           @include('admin.layouts.includes.navbar')
             <div class="page-wrapper" id="table-default">

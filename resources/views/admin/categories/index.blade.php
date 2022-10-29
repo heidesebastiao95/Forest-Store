@@ -1,5 +1,9 @@
 @extends('admin.layouts.app')
 
+@section('asside')
+@include('admin.layouts.includes.asside')
+@endsection
+
 @section('header-section')
 <div class="container-xl">
     <div class="row g-2 align-items-center">
@@ -40,12 +44,12 @@
         <table class="table">
           <thead>
             <tr>
-              <th>
+              <th class="text-center">
                 <label class="form-check form-check-inline mb-0">
                   <input class="form-check-input" type="checkbox" >
-                 <h5><button class="table-sort" data-sort="sort-id">ID</button></h5> 
                 </label>
               </th>
+              <th><h5><button class="table-sort" data-sort="sort-id">ID</button></h5> </th>
               <th><h5><button class="table-sort" data-sort="sort-name">Name</button></h5></th>
               <th><h5><button class="table-sort" data-sort="sort-description">Description</button></h5></th>
               <th><h5><button class="table-sort" data-sort="sort-slug">slug</button></h5></th>
@@ -55,11 +59,12 @@
           </thead>
           <tbody class="table-tbody">
             <tr>
-              <td class="sort-name"><label class="form-check form-check-inline mb-0">
-                <input class="form-check-input" type="checkbox" >
-                Sort Name
-              </label>
-            </td>
+              <td class="text-center">
+                <label class="form-check form-check-inline mb-0">
+                  <input class="form-check-input" type="checkbox" >
+                </label>
+              </td>
+              <td class="sort-name">Sort Name</td>
               <td class="sort-city">Cedar Point, United States</td>
               <td class="sort-type">RMC Hybrid</td>
               <td class="sort-score">100,0%</td>
