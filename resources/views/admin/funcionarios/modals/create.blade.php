@@ -54,7 +54,7 @@
                     Cancel
                   </a>
                   <button type="submit" class="btn btn-primary ms-auto">
-                    Create New Product
+                    Criar Novo Funcionario
                   </button>
                 </div>
               </form>

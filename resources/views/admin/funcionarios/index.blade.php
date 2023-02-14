@@ -19,7 +19,7 @@
     {{-- <!-- Page title actions --> --}}
     <div class="col-12 col-md-auto ms-auto d-print-none">
       <div class="d-flex">
-        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-funcionario">
+        <a href="#" class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-funcionario-editar">
           <x-bi-plus-lg class="text-light icon"/>
           Novo Funcionario
         </a>
@@ -42,7 +42,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="19" r="1"></circle><circle cx="12" cy="5" r="1"></circle></svg>
           </a>
           <div class="dropdown-menu dropdown-menu-end" style="">
-            {{-- <a class="dropdown-item" href="#">Edit user</a> --}}
+            <a class="dropdown-item btn-funcionario" href="#">Editar</a>
             {{-- <a class="dropdown-item" href="#">Change permissions</a> --}}
             <form action="{{ route('funcionarios.destroy',$funcionario->id) }}" method="POST">
               @csrf
@@ -97,5 +97,10 @@
 </div>
 @endsection
 @section('scripts-chart')
-
+  <script>
+    var btn = document.querySelector('.btn-funcionario');
+    btn.addEventListener('click',() => {
+       $("#modal-funcionario-edit").modal('show')
+    })
+  </script>
 @endsection
