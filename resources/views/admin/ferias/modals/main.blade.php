@@ -1,9 +1,6 @@
 <div>
-    @include('admin.orders.modals.create')
+    @include('admin.ferias.modals.create')
 </div>
 <div>
-    @include('admin.orders.modals.edit')
-</div>
-<div>
-    @include('admin.orders.modals.alert.main')
+    @include('admin.ferias.modals.edit')
 </div>

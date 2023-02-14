@@ -12,24 +12,16 @@
             <div class="col-auto">
                 {{-- <div class="avatar bg-indigo-lt"><x-bi-trash/></div> --}}
               </div>
-              Orders
+              Contatos
         </h2>
         {{-- <div class="text-muted mt-1">1-12 of 241 products</div> --}}
       </div>
       {{-- <!-- Page title actions --> --}}
       <div class="col-12 col-md-auto ms-auto d-print-none">
         <div class="d-flex">
-          <div class="me-3">
-            <div class="input-icon">
-              <input type="text" value="" class="form-control form-control-rounded" placeholder="Search…">
-              <span class="input-icon-addon">
-                <x-bi-search />
-              </span>
-            </div>
-          </div>
-          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#create-order-modal">
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-contato">
             <x-bi-plus-lg class="text-light icon"/>
-            New Order
+            Novo Contato
           </a>
         </div>
       </div>
@@ -47,53 +39,48 @@
         <table class="table">
           <thead>
             <tr>
-              <th class="text-center">
-                <label class="form-check form-check-inline mb-0">
-                  <input class="form-check-input" type="checkbox" >
-                </label>
-              </th>
               <th>
                  <h5><button class="table-sort" data-sort="sort-id">ID</button></h5> 
               </th>
-              <th><h5><button class="table-sort" data-sort="sort-name">Name</button></h5></th>
-              <th><h5><button class="table-sort" data-sort="sort-description">Description</button></h5></th>
-              <th><h5><button class="table-sort" data-sort="sort-slug">slug</button></h5></th>
-              <th><h5><button class="table-sort" data-sort="sort-order">Order</button></h5></th>
+              <th><h5><button class="table-sort" data-sort="sort-name">Funcionario</button></h5></th>
+              <th><h5><button class="table-sort" data-sort="sort-description">Telefone</button></h5></th>
+              <th><h5><button class="table-sort" data-sort="sort-email">Email</button></h5></th>
               <th><h5>Action</h5></th>
             </tr>
           </thead>
           <tbody class="table-tbody">
+            @foreach ($contatos as $contato)
             <tr>
-              <td class="text-center">
-                <label class="form-check form-check-inline mb-0">
-                  <input class="form-check-input" type="checkbox" >
-                </label>
-              </td>
-              <td class="sort-name">Sort Name</td>
-              <td class="sort-city">Cedar Point, United States</td>
-              <td class="sort-type">RMC Hybrid</td>
-              <td class="sort-score">100,0%</td>
-              <td class="sort-date" data-date="1628071164">August 04, 2021</td>
+              <td class="sort-number">{{$contato->id}}</td>
+              <td class="sort-city">{{ $contato->funcionario->nome }}</td>
+              <td class="sort-type">{{ $contato->telefone }}</td>
+              <td class="sort-email">{{ $contato->funcionario->email }}</td>
               <td class="sort-quantity">
-                <div class="col-auto">
-                  <div class="dropdown">
-                    <a href="#" class="btn-action" data-bs-toggle="dropdown" aria-expanded="false">
-                      <!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="19" r="1"></circle><circle cx="12" cy="5" r="1"></circle></svg>
+                <div class="dropdown">
+                  <a href="#" class="btn-action" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- Download SVG icon from http://tabler-icons.io/i/dots-vertical -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="19" r="1"></circle><circle cx="12" cy="5" r="1"></circle></svg>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    {{-- <span class="dropdown-header">Dropdown header</span> --}}
+                    <a href="#" class="dropdown-item">
+                      <form action="{{ route('contatos.destroy',$contato->id) }}" method="post">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="dropdown-item">
+                          Deletar
+                        </button>
+                      </form>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-end">
-                      {{-- <span class="dropdown-header">Dropdown header</span> --}}
-                      <a class="dropdown-item" href="#">
-                        Action
-                      </a>
-                      <a class="dropdown-item" href="#">
-                        Another action
-                      </a>
-                    </div>
+                    
+                    <a class="dropdown-item" href="#">
+                      Editar
+                    </a>
                   </div>
                 </div>
               </td>
             </tr>
+            @endforeach
           </tbody>
         </table>
         <div class="d-flex mt-4">

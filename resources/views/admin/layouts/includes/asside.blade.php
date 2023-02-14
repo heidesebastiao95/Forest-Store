@@ -6,7 +6,7 @@
       </button>
       <h1 class="navbar-brand navbar-brand-autodark">
         <a href=".">
-          <img src="./static/logo-white.svg" width="110" height="32" alt="Tabler" class="navbar-brand-image">
+          <h2>Vocation Manager</h2>
         </a>
       </h1>
       <div class="navbar-nav flex-row d-lg-none">
@@ -124,22 +124,12 @@
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="navbar-nav pt-lg-3">
           <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
+            <a class="nav-link" href="{{ route('funcionarios.index') }}" >
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-grid-1x2 class="text-light icon"/>
+                <x-bi-people class="text-light icon"/>
               </span>
               <span class="nav-link-title">
-                Dashboard
-              </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-archive class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Products
+                Funcionarios
               </span>
             </a>
           </li>
@@ -149,117 +139,19 @@
                 <x-bi-folder2-open class="text-light icon"/>
               </span>
               <span class="nav-link-title">
-                Categories
+                Cantatos
               </span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
+            <a class="nav-link" href="{{ route('ferias.index') }}" >
               <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-cart class="text-light icon"/>
+                <x-bi-folder2-open class="text-light icon"/>
               </span>
               <span class="nav-link-title">
-                Orders
+                Ferias
               </span>
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-people class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Custommers
-              </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-graph-up-arrow class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Statistics
-              </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-chat-left-dots class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Reviews
-              </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-cash-stack class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Transactions
-              </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-globe class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Sellers
-              </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link status status-azure" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-pen class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Apparence
-              </span>
-            </a>
-          </li>
-          {{-- <li class="nav-item">
-            <a class="nav-link" href="./index.html" >
-              <span class="nav-link-icon d-md-none d-lg-inline-block">
-                <x-bi-gear class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Settings
-              </span>
-            </a>
-          </li> --}}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#navbar-help" data-bs-toggle="dropdown" data-bs-auto-close="false" role="button" aria-expanded="false">
-              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/lifebuoy -->
-                <x-bi-gear class="text-light icon"/>
-              </span>
-              <span class="nav-link-title">
-                Settings
-              </span>
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="./docs/index.html">
-                Account
-              </a>
-              <a class="dropdown-item" href="./changelog.html">
-                Invoices
-              </a>
-              <a class="dropdown-item" href="https://github.com/tabler/tabler" target="_blank" rel="noopener">
-              Profile
-              </a>
-              <a class="dropdown-item" href="https://github.com/tabler/tabler" target="_blank" rel="noopener">
-                Transactions
-              </a>
-              <a class="dropdown-item" href="https://github.com/tabler/tabler" target="_blank" rel="noopener">
-                Cart
-              </a>
-              
-            </div>
           </li>
         </ul>
       </div>

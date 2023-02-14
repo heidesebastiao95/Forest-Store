@@ -1,9 +1,3 @@
 <div>
-    @include('admin.products.modals.create')
-</div>
-<div>
-    @include('admin.products.modals.edit')
-</div>
-<div>
-    @include('admin.products.modals.alert.main')
+    @include('admin.funcionarios.modals.create')
 </div>

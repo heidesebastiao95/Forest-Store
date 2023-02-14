@@ -24,9 +24,15 @@ class User extends Authenticatable
      * @var string[]
      */
     protected $fillable = [
-        'name',
+        'nome',
         'email',
         'password',
+        'matricula',
+        'cpf',
+        'salario',
+        'cargo',
+        'password',
+        'role_id',
     ];
 
     /**
@@ -59,13 +65,13 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-    public function cart() { return $this->hasMany(\App\Models\Cart::class);}
+    // public function cart() { return $this->hasMany(\App\Models\Cart::class);}
 
-    public function orders() { return $this->hasMany(\App\Models\Order::class); }
+    // public function orders() { return $this->hasMany(\App\Models\Order::class); }
 
-    public function payments() { return $this->hasMany(\App\Models\Payment::class); }
+    // public function payments() { return $this->hasMany(\App\Models\Payment::class); }
 
-    public function products() { return $this->hasMany(\App\Models\Product::class); }
+    // public function products() { return $this->hasMany(\App\Models\Product::class); }
 
-    public function productsMarket() { return $this->hasMany(\App\Models\ProductReacting::class); }
+    // public function productsMarket() { return $this->hasMany(\App\Models\ProductReacting::class); }
 }

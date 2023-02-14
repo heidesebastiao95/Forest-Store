@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Repositories\ContatosRepositorie;
 use Illuminate\Http\Request;
 
 class ContatosController extends Controller
@@ -13,7 +14,7 @@ class ContatosController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.contatos.index', ContatosRepositorie::index());
     }
 
     /**
@@ -34,7 +35,7 @@ class ContatosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return ContatosRepositorie::store($request);
     }
 
     /**
@@ -79,6 +80,6 @@ class ContatosController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return ContatosRepositorie::destroy($id);
     }
 }

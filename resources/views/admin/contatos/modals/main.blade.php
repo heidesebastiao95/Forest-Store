@@ -1,9 +1,6 @@
 <div>
-    @include('admin.orders.modals.create')
+    @include('admin.contatos.modals.create')
 </div>
 <div>
-    @include('admin.orders.modals.edit')
-</div>
-<div>
-    @include('admin.orders.modals.alert.main')
+    @include('admin.contatos.modals.edit')
 </div>

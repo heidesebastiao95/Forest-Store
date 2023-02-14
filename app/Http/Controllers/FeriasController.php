@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Repositories\FeriasRepositorie;
 use Illuminate\Http\Request;
 
 class FeriasController extends Controller
@@ -13,7 +14,7 @@ class FeriasController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.ferias.index',FeriasRepositorie::index());
     }
 
     /**
@@ -34,7 +35,7 @@ class FeriasController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return FeriasRepositorie::store($request);
     }
 
     /**
@@ -79,6 +80,6 @@ class FeriasController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return FeriasRepositorie::destroy($id);
     }
 }

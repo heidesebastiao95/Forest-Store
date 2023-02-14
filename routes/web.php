@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ContatosController;
+use App\Http\Controllers\FeriasController;
 use App\Http\Controllers\FuncionariosController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,7 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('funcionario',FuncionariosController::class);
+Route::resource('funcionarios',FuncionariosController::class);
+Route::resource('contatos',ContatosController::class);
+Route::resource('ferias',FeriasController::class);
 
 // Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])->group(function () {
 //     Route::get('/dashboard', function () {

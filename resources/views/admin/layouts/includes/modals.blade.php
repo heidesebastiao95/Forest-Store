@@ -1,9 +1,9 @@
 <div>
-    @include('admin.products.modals.main')
+    @include('admin.funcionarios.modals.main')
 </div>
 <div>
-    @include('admin.categories.modals.main')
+    @include('admin.contatos.modals.main')
 </div>
 <div>
-    @include('admin.orders.modals.main')
+    @include('admin.ferias.modals.main')
 </div>
