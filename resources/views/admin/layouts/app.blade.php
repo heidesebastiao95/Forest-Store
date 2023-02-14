@@ -17,7 +17,9 @@
             {{-- Sidebar --}}
          @yield('asside')
             {{-- Navbar --}}
-          @include('admin.layouts.includes.navbar')
+         @isset(Auth::user()->nome)
+         @include('admin.layouts.includes.navbar')
+         @endisset
             <div class="page-wrapper" id="table-default">
               {{-- Page Header --}}
               <div class="page-header d-print-none">

@@ -13,9 +13,11 @@
                 <div class="mb-3">
                   <div class="form-label">Funcionario</div>
                   <select class="form-select" name="funcionario">
-                    @foreach ($funcionarios as $funcionario)
-                    <option value="{{ $funcionario->id }}">{{ $funcionario->nome }}</option>
-                    @endforeach
+                    @isset($funcionarios)
+                        @foreach ($funcionarios as $funcionario)
+                        <option value="{{ $funcionario->id }}">{{ $funcionario->nome }}</option>
+                        @endforeach
+                    @endisset
                   </select>
                 </div>
                 <div class="form-group mb-3 ">
