@@ -25,12 +25,7 @@ class Role extends Seeder
                     'updated_at' => now()
                 ],
                 2 => [
-                    'name' =>'Seller',
-                    'created_at' => now(),
-                    'updated_at' => now()
-                ],
-                3 => [
-                    'name' =>'Customer',
+                    'name' =>'funcionario',
                     'created_at' => now(),
                     'updated_at' => now()
                 ]
