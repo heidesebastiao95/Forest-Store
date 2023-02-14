@@ -1,9 +1,0 @@
-<div>
-    @include('admin.orders.modals.create')
-</div>
-<div>
-    @include('admin.orders.modals.edit')
-</div>
-<div>
-    @include('admin.orders.modals.alert.main')
-</div>
